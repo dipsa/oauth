@@ -1,0 +1,20 @@
+{
+  "server": {
+    "protocol": "http",
+    "host": "dummy.com:3000"
+  },
+  "facebook": {
+    "key": "xx",
+    "secret": "xx",
+    "callback": "/handle_facebook_callback",
+    "scope": [
+      "public_profile",
+      "user_likes"
+    ]
+  },
+  "twitter": {
+    "key": "xx",
+    "secret": "xx",
+    "callback": "/handle_twitter_callback"
+  }
+}
